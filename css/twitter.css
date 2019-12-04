@@ -1,0 +1,17 @@
+/* DEVELOPER: ZACHARY ZEITLER, IS117-001, FALL 2019 */
+
+div {
+    padding: 1em 1em 1em 1em;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #203731;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
+}
