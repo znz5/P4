@@ -1,0 +1,45 @@
+/* DEVELOPER: ZACHARY ZEITLER, IS117-001, FALL 2019 */
+
+form {
+    padding: 1em 1em 1em 1em;
+    font-family: Helvetica;
+}
+
+#rodgers {
+    float: right;
+    width: 60%;
+    height: 60%;
+    clear: both;
+    position: relative;
+    top: -500px;
+    padding: 2em 2em 2em 2em;
+}
+
+.container {
+    width: 500px;
+    clear: both;
+    float: left;
+}
+
+.container input {
+    width: 100%;
+    clear: both;
+}
+@media all and (max-width: 1100px) {
+    #rodgers {
+        position: absolute;
+    }
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #203731;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
+}
+
